@@ -27,7 +27,8 @@ $folderUsers = ($folderUsers ? $folderUsers : SITE_DIR."company/personal/");
 
 $folderWorkgroups = COption::GetOptionString("socialnetwork", "workgroups_page", false, SITE_ID);
 $folderWorkgroups = ($folderWorkgroups ? $folderWorkgroups : SITE_DIR."workgroups/");
-?>fdgdfgdf
+?>
+not remote pull
 <?
 $APPLICATION->IncludeComponent(
 	"bitrix:socialnetwork.log.ex", 
